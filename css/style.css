@@ -1,12 +1,4 @@
-* {
-    * { 
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-}
-
-header {
+.header {
     padding: 20px 15px;
     position: fixed;
     top: 0;
@@ -38,11 +30,11 @@ li {
     font-weight: bold;
 }
 
-nav {
+.header__nav {
     margin: 0 0 0 auto;
 }
 
-main {
+.main {
     width: 100%;
     background-color: #fff;
 }
